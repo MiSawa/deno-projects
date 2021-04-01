@@ -5,6 +5,8 @@ import {
 
 async function handleRequest(request: Request) {
   console.log(request.method);
+  return "Hello, deno!";
+  /*
   return jsx(
       <html>
         <head>
@@ -15,6 +17,7 @@ async function handleRequest(request: Request) {
         </body>
       </html>,
   );
+  */
 }
 
 serve({
