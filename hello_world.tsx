@@ -19,6 +19,6 @@ async function handleRequest(request: Request) {
 }
 
 serve({
-  "/": handleRSequest,
+  "/": handleRequest,
 });
 console.log("http://localhost:8000/");
